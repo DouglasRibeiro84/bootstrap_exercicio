@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: white;
+    color: black;
+}
+
+.carousel-inner img{
+    width:520px;
+    max-height: 400px;
+    padding-top: 17px;
+}
+
+h2{
+    text-align: center;
+    padding: 16px 0;
+}
+
+h3{
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+.historia{
+    padding-left: 16px;
+}
+
+.history{
+    padding:36px 0;
+    border-bottom: 3px solid black;
+}
+
+p{
+    margin-bottom: 0;
+}
