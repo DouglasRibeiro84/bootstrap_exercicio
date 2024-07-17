@@ -15,10 +15,10 @@
                 <nav>
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link" href="#historia">História</a>
+                            <a class="nav-link active" href="#inicio">História</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Tipos de café</a>
+                            <a class="nav-link" href="#tipos">Tipos de café</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Beneficios</a>
@@ -31,6 +31,7 @@
             </div>
         </div>
     </header>
+    <div data-bs-spy="scroll" data-bs-target="header">
     <section id="inicio">
         <div class="container">
             <div class="d-flex history">
@@ -59,13 +60,73 @@
                 <p>Kaldi compartilhou sua descoberta com um monge local, que decidiu fazer uma infusão com os frutos. Ao beber a infusão, o monge percebeu que conseguia manter-se acordado durante suas longas orações noturnas. A notícia espalhou-se entre os monges do mosteiro, e o uso da bebida se disseminou.</p>
                 <p> Com o tempo, o conhecimento sobre essa "poção milagrosa" chegou à Arábia e, eventualmente, ao resto do mundo. O café tornou-se uma bebida popular, valorizada por suas propriedades energizantes e seu sabor único.</p>
             </article>
-            </div>
         </div>
-    </section>
-    <section>
-        <h2>Tipos de café</h2>
-    </section>
-    
-    <script src="./lib/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    </div>
+</section>
+<section class="container" id="tipos">
+    <h2>Tipos de café</h2>
+    <nav class="nav nav-tabs">
+        <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link botao active">Cafe</button>
+        <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link botao">Cafe</button>
+        <button data-bs-toggle="tab" data-bs-target="#" class="nav-link botao">Cafe</button>
+        <button data-bs-toggle="tab" data-bs-target="#" class="nav-link botao">Cafe</button>
+    </nav>
+        <div class="tab-content">
+            <div class="tab-pane active" id="aba1">
+                <div class="row">
+                    <article class="col-3">
+                        <div class="card">
+                            <div class="card-header">
+                                Cabeçalho do card
+                            </div>
+                                <img src="https://via.placeholder.com/100x100"/>
+                            <div class="card-body">
+                                <h4 class="card-title">Titulo</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab illo soluta voluptatem voluptate cumque facilis perspiciatis sit eveniet, excepturi quam vitae, id cum asperiores, at a provident suscipit fugit.</p>
+                            </div>
+                        </div>
+                    </article>
+                            <article class="col-3">
+                                <div class="card text-bg-dark">
+                                    <div class="card-header">
+                                        Cabeçalho do card
+                                    </div>
+                                    <img src="https://via.placeholder.com/100x100"/>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Titulo</h4>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab illo soluta voluptatem voluptate cumque facilis perspiciatis sit eveniet, excepturi quam vitae, id cum asperiores, at a provident suscipit fugit.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-3">
+                                <div class="card">
+                                    ola
+                                </div>
+                            </article>
+                            <article class="col-3">
+                                <div class="card">
+                                    ola
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba2">
+                        <div class="row">
+                            <article class="col-3">
+                                <div class="card">
+                                    <div class="card-header">
+                                        Cabeçalho do card
+                                    </div>
+                                        <img src="https://via.placeholder.com/100x100"/>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Titulo</h4>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab illo soluta voluptatem voluptate cumque facilis perspiciatis sit eveniet, excepturi quam vitae, id cum asperiores, at a provident suscipit fugit.</p>
+                                    </div>
+                                </div>
+                            </article>
+                </div>
+        </section>
+        </div>
+        <script src="./lib/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
