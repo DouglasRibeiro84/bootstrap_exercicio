@@ -60,6 +60,26 @@ p{
     --bs-nav-link-hover-color: black
 }
 
+#tipos{
+    padding-top: 70px;
+}
+
+#tipos h2{
+    padding-top: 0;
+}
+
+.cafes{
+    margin-bottom: 15px;
+}
+
+.card img{
+    height: 200PX;
+}
+
+.card-body{
+    height: 185px;
+}
+
 
 
 
