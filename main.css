@@ -13,14 +13,20 @@ header{
     z-index: 3;
 }
 
+header h1{
+    font-weight: bold;
+}
+
 .nav-link{
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
 .nav-link:hover{
     background-color: rgba(255, 255, 255, 0.902);
     color: black;
+    font-weight: bold;
 }
 
 .carousel-inner img{
@@ -32,11 +38,13 @@ header{
 h2{
     text-align: center;
     padding: 16px 0;
+    font-size: 2em;
 }
 
-h3{
+.historia h2{
     border-bottom: 2px solid black;
     padding: 8px;
+    text-align:left
 }
 
 .historia{
@@ -61,15 +69,18 @@ p{
 }
 
 #tipos{
-    padding-top: 70px;
+    padding-top: 40px;
+    border-bottom: 3px solid black;
+    padding-bottom: 40px;
 }
 
 #tipos h2{
-    padding-top: 0;
+    padding: 0;
 }
 
 .cafes{
     margin-bottom: 15px;
+    padding-top: 20px;
 }
 
 .card img{
@@ -78,6 +89,77 @@ p{
 
 .card-body{
     height: 185px;
+}
+
+.sessao2 .sessao3{
+    padding: 10px;
+}
+
+.sessao3{
+    padding-bottom: 30px;
+}
+
+.cafes button{
+    color: grey;
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #000;
+}
+
+.cafes button:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.495);
+}
+
+.card-header h3{
+    border: none;
+}
+#beneficios .card-body{
+    height: 280px;
+    padding: 16px
+}
+
+#beneficios .card{
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+#beneficios img{
+    height: 250PX;
+    padding: 8px 8px 0px 8px;
+}
+
+
+.texto{
+    margin-top: 20px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#beneficios{
+    padding: 40px 0;
+    border-bottom: 3px solid black;
+}
+
+#beneficios h2{
+    padding-bottom: 24px;
+}
+
+h2{
+    font-weight: bolder
+}
+
+#beneficios .card-header h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#beneficios .row{
+    border: 4px double black;
+    padding: 16px;
+    border-radius: 10px;
 }
 
 
