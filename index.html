@@ -25,7 +25,7 @@
                             <a class="nav-link" href="#beneficios">Beneficios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato/Sobre</a>
+                            <a class="nav-link" href="#contact">Contato/Sobre</a>
                         </li>
                     </ul>
                 </nav>
@@ -321,9 +321,45 @@
                 <p class="texto">É importante notar que os efeitos do café podem variar de pessoa para pessoa, e o consumo excessivo pode causar efeitos colaterais como nervosismo, tremores, insônia e palpitações. A quantidade ideal de consumo de café pode variar dependendo da sensibilidade individual à cafeína e de outros fatores de saúde. Em geral, consumir café com moderação pode proporcionar benefícios à saúde, mas é essencial estar atento aos sinais do corpo e ajustar o consumo conforme necessário.
                 </p>
         </section>
-        <section>
+        <section id="contact" class="container contato">
             <h2>Contato/Sobre</h2>
+            <div class="row">
+                <form class="col-6">
+                    <input class="form-control" type="text" placeholder="Nome:" />
+                    <input class="form-control" type="email" placeholder="Email:" />
+                    <input class="form-control" type="tel" placeholder="Telefone:" />
+                    <textarea class="form-control" placeholder="Sua mensagem:"></textarea>
+                    <div class="form-check form-switch">
+                        <label class="form-check-label" for="aceito-termos">Li e aceito os termos do site</label>
+                        <input class="form-check-input" type="checkbox" id="aceito-termos">
+                    </div>
+                    <button class="btn btn-success" type="submit">Enviar</button>
+                </form>
+                <div class="accordion col-6">
+                    <div class="accordion-item">
+                        <div class="accordion-header sobre">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#objetivo">Sobre</button>
+                        </div>
+                        <div id="objetivo" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                um texto sobre sobre sobre
+                            </div>
+                        </div>
+                        <div class="accordion-header sobre">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#tema">Sobre</button>
+                        </div>
+                        <div id="tema" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                sobre
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        <footer>
+            footer
+        </footer>
         </div>
         <script src="./lib/bootstrap.bundle.min.js"></script>
     </body>
