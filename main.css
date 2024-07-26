@@ -154,13 +154,24 @@ h2{
     padding: 0;
     text-align: center;
     font-size: 1.5em;
+    font-weight: bold;
+}
+
+#beneficios .card-header{
+    border-bottom: none;
+    background-color: black;
+    color: white;
 }
 
 #beneficios .row{
-    border: 4px double black;
     padding: 16px;
     border-radius: 10px;
 }
+
+.card{
+
+}
+
 
 .contato input, .contato textarea{
     margin-top: 10px;
@@ -170,6 +181,7 @@ h2{
 .contato textarea{
     resize: none;
     height: 100px;
+    margin-bottom: 5px;
 }
 
 .sobre{
@@ -179,6 +191,7 @@ h2{
 
 .accordion-button{
     padding: 8px;
+    font-weight: bold;
 }
 
 .accordion-item{
@@ -196,6 +209,37 @@ h2{
 
 .accordion{
     border-left: 3px solid black;
+    --bs-accordion-active-bg: white;
+    --bs-accordion-btn-focus-box-shadow:none;
+}
+
+.accordion-button:not(.collapsed){
+    color: black;
+}
+
+.enviar{
+    margin-top: 15px;
+    width: 100%;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.enviar:hover{
+    background-color: black;
+    color: white;
+}
+
+#aceito-termos{
+    margin-top: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 
